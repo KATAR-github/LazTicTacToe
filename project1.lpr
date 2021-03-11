@@ -1,4 +1,4 @@
-program laztictactoe;
+program project1;
 
 {$mode objfpc}{$H+}
 

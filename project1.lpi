@@ -9,9 +9,6 @@
       <Scaled Value="True"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
-      <XPManifest>
-        <DpiAware Value="True"/>
-      </XPManifest>
       <Icon Value="0"/>
     </General>
     <BuildModes Count="1">
@@ -32,7 +29,7 @@
     </RequiredPackages>
     <Units Count="3">
       <Unit0>
-        <Filename Value="laztictactoe.lpr"/>
+        <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
@@ -47,6 +44,7 @@
         <Filename Value="unit2.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit2"/>
       </Unit2>
@@ -55,7 +53,7 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="laztictactoe"/>
+      <Filename Value="LazTicTacToe"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

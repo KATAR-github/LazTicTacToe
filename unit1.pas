@@ -89,6 +89,13 @@ begin
   else
     label1.Caption := 'O''s turn';
 
+  if (panel1.Caption <> '') and (panel2.Caption <> '') and (panel3.Caption <> '') and
+    (panel4.Caption <> '') and (panel5.Caption <> '') and (panel6.Caption <> '') and
+    (panel7.Caption <> '') and (panel8.Caption <> '') and (panel9.Caption <> '') then
+  begin
+    label1.Caption := 'Tie!';
+    TheEnd();
+  end;
 
   if (panel1.Caption <> '') and (panel1.Caption = panel2.Caption) and
     (panel2.Caption = panel3.Caption) then
@@ -262,13 +269,7 @@ begin
     panel7.color := TColor($a5e57e);
     Label2.Caption := 'X - ' + IntToStr(score_x) + #13 + 'O - ' + IntToStr(score_y);
   end;
-  if (panel1.Caption <> '') and (panel2.Caption <> '') and (panel3.Caption <> '') and
-    (panel4.Caption <> '') and (panel5.Caption <> '') and (panel6.Caption <> '') and
-    (panel7.Caption <> '') and (panel8.Caption <> '') and (panel9.Caption <> '') then
-  begin
-    label1.Caption := 'Tie!';
-    TheEnd();
-  end;
+
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);

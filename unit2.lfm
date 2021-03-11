@@ -1,7 +1,7 @@
 object Form2: TForm2
-  Left = 154
+  Left = 51
   Height = 329
-  Top = 442
+  Top = 388
   Width = 383
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
@@ -2009,7 +2009,7 @@ object Form2: TForm2
     Width = 383
     Alignment = taCenter
     AutoSize = False
-    Caption = 'LazTicTacToe v1.0'#13#10#13#10'LazTicTacToe is a Tic Tac Toe game written in Free Pascal (Lazarus)'#13#10#13#10'This program is licensed under the GNU GPL v2.'#13#10'English translation by egfilin.'
+    Caption = 'LazTicTacToe v1.1'#13#10#13#10'LazTicTacToe is a Tic Tac Toe game written in Free Pascal (Lazarus)'#13#10#13#10'This program is licensed under the GNU GPL v2.'#13#10'English translation by egfilin.'
     ParentColor = False
   end
   object Button1: TButton
@@ -2030,10 +2030,8 @@ object Form2: TForm2
     Width = 266
     Alignment = taCenter
     Caption = 'https://github.com/KATAR-github/LazTicTacToe/'
-    Font.CharSet = RUSSIAN_CHARSET
     Font.Color = clBlue
     Font.Height = -12
-    Font.Name = 'Segoe UI'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsUnderline]
